@@ -1,0 +1,1147 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="en"><!--<![endif]-->
+  <head data-hook="inside_head">
+    <script>dataLayer = [];</script>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-52VMX98');</script>
+      <!-- End Google Tag Manager -->
+    
+    <script src="https://rails-assets-us.bookshop.org/assets/above-the-fold-c691d47ee1a9f1cb862f8a452a7184cf20b4e8625ac33e0be0cbeacfe29fd022.js"></script>
+    <meta charset="utf-8"/>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"NRJS-169ed378d4112107d7e","applicationID":"266518679","transactionName":"eg5XTUtdXQpdERhLRUsEXBZJQF4CTQBDSxpQD11cQQ==","queueTime":0,"applicationTime":198,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-169ed378d4112107d7e",applicationID:"266518679"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<title>
+  Bookshop: Buy books online. Support local bookstores.
+</title>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+<link rel="shortcut icon" type="image/x-icon" href="https://rails-assets-us.bookshop.org/assets/favicon-63cb20989e2516343feeab429626798a43afdaa28eeaba777b7e0acde8a25dd2.png" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" media="screen" href="https://rails-assets-us.bookshop.org/assets/application-3b2135a7a4b3abeed5b12978815ee2f94dfa928e8524e7106025c9b32708a7b0.css" />
+<link rel="stylesheet" media="screen, print" href="https://rails-assets-us.bookshop.org/assets/generated-cb22ec4de56eed4dcf775fd2fbbce6b0cfdd7d763cc81e4f79ae169a700e19e9.css" />
+<script data-ad-client="ca-pub-5490916573873401" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="olsuj6D2Uh6JqkugmSCBArsfI+GkktK0rDGpIDs9/CQHLViBDIPfqp85ALYtjqjUaXwXRZeapepYhxbq0UG26A==" />
+<!--[if lt IE 9]
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+-->
+  <script type="text/javascript">
+    (function(account) {
+        try {
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.src = "https://static.narrativ.com/tags/" + account + ".js";
+            b.async = true;
+            var a = document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(b, a);
+        } catch (e) {}
+    }("bookshop"));
+  </script>
+
+
+    <!-- Google Analytics -->
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-152800254-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFCKW2FXS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XYFCKW2FXS');
+    </script>
+    
+    <script type="text/javascript">
+      window.AppConfig             = window.AppConfig || {}
+      AppConfig.abandon_cart_popup = true
+      AppConfig.env                = "production"
+      AppConfig.logged_in          = false
+      AppConfig.cart_items_count   = 0
+    </script>
+    <link rel="stylesheet" href="https://design.bkshp.org/builds/prefixed-0.6.0.css">
+  </head>
+  <body class="one-col" id="default" data-hook="body" data-controller="spree/products" data-action="index">
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52VMX98"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    
+    <header id="header" data-hook class="bg-white sticky top-0 z-50">
+  
+    <nav class="nav hidden lg:block measure w-full">
+  <div class="flex items-center justify-between py-3">
+    <div class="flex flex-1 flex-shrink items-center overflow-hidden text-xs">
+      <a class="branding inline-flex items-center mr-4 overflow-hidden" href="https://bookshop.org/">
+        <img class="site-logo" src="https://rails-assets-us.bookshop.org/assets/logo_dark-0d5fc34a5dbaf62c3b832d243e2d3234e3b2b550f8842cd59d34ba1fcb94479a.svg" />
+        <h1 class="ml-2 site-title whitespace-no-wrap flex-shrink">
+        </h1>
+</a>      <form class="nav-search flex-1" action="/books" accept-charset="UTF-8" method="get">
+  <input type="search" name="keywords" id="keywords" value="python" placeholder="Search" />
+  <button type="submit"><img src="https://rails-assets-us.bookshop.org/assets/ic_search-839c204e62aedfbf9dff768f4965fa9f67c5807cac1c0defe6d5d3adfff53298.svg" /></button>
+</form>
+    </div>
+    <div class="inline-flex ml-4 text-lg">
+      <a href="https://twitter.com/bookshop_org">
+  <i class="fa fa-twitter"></i>
+</a><a href="https://www.facebook.com/bookshop.org/">
+  <i class="fa fa-facebook mx-3"></i>
+</a><a href="https://www.instagram.com/bookshop_org/">
+  <i class="fa fa-instagram"></i>
+</a>
+    </div>
+    <a class="font-sans-bold ml-4 text-xs uppercase" href="https://bookshop.org/pages/store_locator">Find a BookStore</a>
+    <div class="items-center flex space-x-6 ml-2">
+  <a href="#"
+        class="hidden lg:block tooltipster font-sans-bold text-xs uppercase"
+        data-tooltip-content="#taxonomies-content">
+    Browse
+  </a>
+  <a href="/cart/" class="font-sans-bold text-xs uppercase mr-1 relative">
+      <img src="https://rails-assets-us.bookshop.org/assets/ic_cart-a66709eae4d5e1c73d6637207c5c57a7e0b3c19090b173c59ed65418dd056c53.svg" />
+  </a>
+  <a href="#" class="tooltipster font-sans-bold text-xs uppercase" data-tooltip-content="#account-action-list">
+      <img src="https://rails-assets-us.bookshop.org/assets/ic_avatar-43c55a77d5a460ca4e0a221ee814733d9101adb1df47bc944739c051884cf579.svg" />
+  </a>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<div class="menu-btn lg:hidden">
+  <div class="menu-btn__lines  %"></div>
+</div>
+
+<ul class="menu-items lg:hidden overflow-hidden">
+  <li>
+    <div class="location-chooser flex m-2 mt-3">
+      <select name="location" id="location"><option value="🇬🇧 UK">🇬🇧 UK</option>
+<option selected="selected" value="🇺🇸 US">🇺🇸 US</option></select>
+    </div>
+  </li>
+  <li>
+    <a class="outline menu-item text-xs" href="https://bookshop.org/pages/store_locator">
+      <i class="fa fa-map-o text-lg map-icon"></i>
+      <span class="ml-2">Find a Bookstore</span>
+</a>  </li>
+  <li>
+    <a class="outline menu-item text-xs" href="/cart">
+      <img src="https://rails-assets-us.bookshop.org/assets/ic_cart_secondary-92e6ab39c54702b94c14e41eb21c188f0d2f9fb93d87a934e589b6dcf7f54fee.svg" />
+      <span class="ml-2">View Cart</span>
+</a>  </li>
+
+  <h3 class="flex justify-center">Browse Categories</h3>
+
+  <div class='taxonomies'>
+        <li><a href="/books">Popular Books</a></li>
+  <li><a href="/categories/m/lgbtq">LGBTQ+</a></li>
+  <li><a href="/categories/m/arts-photography">Arts &amp; Photography</a></li>
+  <li><a href="/categories/m/mystery-thrillers-true-crime">Mystery, Thrillers, &amp; Crime</a></li>
+  <li><a href="/categories/m/biography-memoir">Biography &amp; Memoir</a></li>
+  <li><a href="/categories/m/nonfiction">Nonfiction</a></li>
+  <li><a href="/categories/m/business-investing">Business &amp; Investing </a></li>
+  <li><a href="/categories/m/poetry">Poetry</a></li>
+  <li><a href="/categories/m/children-s-books">Children&#39;s Books</a></li>
+  <li><a href="/categories/m/romance">Romance</a></li>
+  <li><a href="/categories/m/comics-graphic-novels">Comics &amp; Graphic Novels</a></li>
+  <li><a href="/categories/m/science-fiction">Science Fiction</a></li>
+  <li><a href="/categories/m/cooking-wine">Cooking &amp; Wine</a></li>
+  <li><a href="/categories/m/science-technology">Science &amp; Technology</a></li>
+  <li><a href="/categories/m/fantasy">Fantasy</a></li>
+  <li><a href="/categories/m/self-development-hobbies">Self Development &amp; Hobbies</a></li>
+  <li><a href="/categories/m/history">History</a></li>
+  <li><a href="/categories/m/spanish-language">Spanish Language</a></li>
+  <li><a href="/categories/m/horror">Horror</a></li>
+  <li><a href="/categories/m/spirituality-and-religion">Spirituality &amp; Religion</a></li>
+  <li><a href="/categories/m/humor-games">Humor &amp; Games</a></li>
+  <li><a href="/categories/m/teen-young-adult">Teen &amp; Young Adult</a></li>
+  <li><a href="/categories/m/literature-fiction">Literature &amp; Fiction</a></li>
+  <li><a href="/categories/m/travel">Travel</a></li>
+
+  </div>
+</ul>
+
+  <a style="font-size: 28px" class="hidden lg:block" href="/location">
+    🇺🇸
+</a></div>
+
+  </div>
+  
+  <div class="bg-white border-t border-b border-border grid lg:grid-cols-3 py-1">
+  <a class="hidden lg:block lg:invisible" href="https://bookshop.org/">
+    <span class="powered-by">POWERED BY</span>
+    <span class="font-serif text-secondary">Bookshop.org</span>
+</a>  <div class="text-center">
+    <a href="https://bookshop.org/pages/about">
+      <span class="font-sans-bold text-lg text-secondary">$15,688,933.12</span>
+      raised for local bookstores
+</a>  </div>
+  <div class="hidden lg:block"></div>
+</div>
+
+</nav>
+
+    <nav class="lg:hidden">
+  <div class="flex items-center py-3 px-4">
+    <a href="https://bookshop.org/">
+      <img class="site-logo" src="https://rails-assets-us.bookshop.org/assets/logo_dark-0d5fc34a5dbaf62c3b832d243e2d3234e3b2b550f8842cd59d34ba1fcb94479a.svg" />
+</a>    <div class="flex-1 flex-shrink font-serif font-medium ml-2 overflow-hidden whitespace-no-wrap leading-tight">
+    </div>
+    <div class="items-center flex space-x-6 ml-2">
+  <a href="#"
+        class="hidden lg:block tooltipster font-sans-bold text-xs uppercase"
+        data-tooltip-content="#taxonomies-content">
+    Browse
+  </a>
+  <a href="/cart/" class="font-sans-bold text-xs uppercase mr-1 relative">
+      <img src="https://rails-assets-us.bookshop.org/assets/ic_cart-a66709eae4d5e1c73d6637207c5c57a7e0b3c19090b173c59ed65418dd056c53.svg" />
+  </a>
+  <a href="#" class="tooltipster font-sans-bold text-xs uppercase" data-tooltip-content="#account-action-list">
+      <img src="https://rails-assets-us.bookshop.org/assets/ic_avatar-43c55a77d5a460ca4e0a221ee814733d9101adb1df47bc944739c051884cf579.svg" />
+  </a>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<div class="menu-btn lg:hidden">
+  <div class="menu-btn__lines  %"></div>
+</div>
+
+<ul class="menu-items lg:hidden overflow-hidden">
+  <li>
+    <div class="location-chooser flex m-2 mt-3">
+      <select name="location" id="location"><option value="🇬🇧 UK">🇬🇧 UK</option>
+<option selected="selected" value="🇺🇸 US">🇺🇸 US</option></select>
+    </div>
+  </li>
+  <li>
+    <a class="outline menu-item text-xs" href="https://bookshop.org/pages/store_locator">
+      <i class="fa fa-map-o text-lg map-icon"></i>
+      <span class="ml-2">Find a Bookstore</span>
+</a>  </li>
+  <li>
+    <a class="outline menu-item text-xs" href="/cart">
+      <img src="https://rails-assets-us.bookshop.org/assets/ic_cart_secondary-92e6ab39c54702b94c14e41eb21c188f0d2f9fb93d87a934e589b6dcf7f54fee.svg" />
+      <span class="ml-2">View Cart</span>
+</a>  </li>
+
+  <h3 class="flex justify-center">Browse Categories</h3>
+
+  <div class='taxonomies'>
+        <li><a href="/books">Popular Books</a></li>
+  <li><a href="/categories/m/lgbtq">LGBTQ+</a></li>
+  <li><a href="/categories/m/arts-photography">Arts &amp; Photography</a></li>
+  <li><a href="/categories/m/mystery-thrillers-true-crime">Mystery, Thrillers, &amp; Crime</a></li>
+  <li><a href="/categories/m/biography-memoir">Biography &amp; Memoir</a></li>
+  <li><a href="/categories/m/nonfiction">Nonfiction</a></li>
+  <li><a href="/categories/m/business-investing">Business &amp; Investing </a></li>
+  <li><a href="/categories/m/poetry">Poetry</a></li>
+  <li><a href="/categories/m/children-s-books">Children&#39;s Books</a></li>
+  <li><a href="/categories/m/romance">Romance</a></li>
+  <li><a href="/categories/m/comics-graphic-novels">Comics &amp; Graphic Novels</a></li>
+  <li><a href="/categories/m/science-fiction">Science Fiction</a></li>
+  <li><a href="/categories/m/cooking-wine">Cooking &amp; Wine</a></li>
+  <li><a href="/categories/m/science-technology">Science &amp; Technology</a></li>
+  <li><a href="/categories/m/fantasy">Fantasy</a></li>
+  <li><a href="/categories/m/self-development-hobbies">Self Development &amp; Hobbies</a></li>
+  <li><a href="/categories/m/history">History</a></li>
+  <li><a href="/categories/m/spanish-language">Spanish Language</a></li>
+  <li><a href="/categories/m/horror">Horror</a></li>
+  <li><a href="/categories/m/spirituality-and-religion">Spirituality &amp; Religion</a></li>
+  <li><a href="/categories/m/humor-games">Humor &amp; Games</a></li>
+  <li><a href="/categories/m/teen-young-adult">Teen &amp; Young Adult</a></li>
+  <li><a href="/categories/m/literature-fiction">Literature &amp; Fiction</a></li>
+  <li><a href="/categories/m/travel">Travel</a></li>
+
+  </div>
+</ul>
+
+  <a style="font-size: 28px" class="hidden lg:block" href="/location">
+    🇺🇸
+</a></div>
+
+  </div>
+  
+  <div class="bg-white border-t border-b border-border grid lg:grid-cols-3 py-1">
+  <a class="hidden lg:block lg:invisible" href="https://bookshop.org/">
+    <span class="powered-by">POWERED BY</span>
+    <span class="font-serif text-secondary">Bookshop.org</span>
+</a>  <div class="text-center">
+    <a href="https://bookshop.org/pages/about">
+      <span class="font-sans-bold text-lg text-secondary">$15,688,933.12</span>
+      raised for local bookstores
+</a>  </div>
+  <div class="hidden lg:block"></div>
+</div>
+
+  <div class="bg-callout">
+    <form class="p-2" action="/books" accept-charset="UTF-8" method="get">
+  <div class="bg-white rounded-full flex py-1_5 pl-4 pr-3 shadow-sm">
+    <input type="search" name="keywords" id="keywords" value="python" placeholder="Find a book" class="flex-1 text-s" />
+    <img class="search" onclick="$(this).closest(&#39;form&#39;).submit();" src="https://rails-assets-us.bookshop.org/assets/ic_search-839c204e62aedfbf9dff768f4965fa9f67c5807cac1c0defe6d5d3adfff53298.svg" />
+  </div>
+</form>
+  </div>
+</nav>
+
+  <div class="hidden">
+    <ul id="taxonomies-content">
+          <li><a href="/books">Popular Books</a></li>
+  <li><a href="/categories/m/lgbtq">LGBTQ+</a></li>
+  <li><a href="/categories/m/arts-photography">Arts &amp; Photography</a></li>
+  <li><a href="/categories/m/mystery-thrillers-true-crime">Mystery, Thrillers, &amp; Crime</a></li>
+  <li><a href="/categories/m/biography-memoir">Biography &amp; Memoir</a></li>
+  <li><a href="/categories/m/nonfiction">Nonfiction</a></li>
+  <li><a href="/categories/m/business-investing">Business &amp; Investing </a></li>
+  <li><a href="/categories/m/poetry">Poetry</a></li>
+  <li><a href="/categories/m/children-s-books">Children&#39;s Books</a></li>
+  <li><a href="/categories/m/romance">Romance</a></li>
+  <li><a href="/categories/m/comics-graphic-novels">Comics &amp; Graphic Novels</a></li>
+  <li><a href="/categories/m/science-fiction">Science Fiction</a></li>
+  <li><a href="/categories/m/cooking-wine">Cooking &amp; Wine</a></li>
+  <li><a href="/categories/m/science-technology">Science &amp; Technology</a></li>
+  <li><a href="/categories/m/fantasy">Fantasy</a></li>
+  <li><a href="/categories/m/self-development-hobbies">Self Development &amp; Hobbies</a></li>
+  <li><a href="/categories/m/history">History</a></li>
+  <li><a href="/categories/m/spanish-language">Spanish Language</a></li>
+  <li><a href="/categories/m/horror">Horror</a></li>
+  <li><a href="/categories/m/spirituality-and-religion">Spirituality &amp; Religion</a></li>
+  <li><a href="/categories/m/humor-games">Humor &amp; Games</a></li>
+  <li><a href="/categories/m/teen-young-adult">Teen &amp; Young Adult</a></li>
+  <li><a href="/categories/m/literature-fiction">Literature &amp; Fiction</a></li>
+  <li><a href="/categories/m/travel">Travel</a></li>
+
+    </ul>
+  </div>
+  <div class="hidden">
+    <ul id="account-action-list" class="font-sans-medium text-s text-primary leading-relaxed p-1">
+        <li><a href="https://bookshop.org/account">Login</a></li>
+        <li><a href="https://bookshop.org/signup">Sign Up</a></li>
+    </ul>
+  </div>
+</header>
+
+    <main class="main">
+      <div id="wrapper" data-hook>
+        
+        
+        <div id="content" class="columns sixteen" data-hook>
+          <div class="flash-messages">
+            
+          </div>
+          <!-- cached: September 02, 2021 06:15, real: September 02, 2021 08:39 -->
+          <section class="measure section py-4 pb-8">
+  <h1 class="h1 mb-3">
+      Search for
+      "python"
+  </h1>
+    <label class="tab-selector-label">Show results for:</label>
+    <ul class="mb-4 tab-selector">
+      <li><a class="active" href="/books?keywords=python">Books</a></li>
+      <li><a href="/shops?keywords=python">Shops</a></li>
+    </ul>
+    <div class="booklist">
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-for-everybody-exploring-data-in-python-3/9781530051120">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781530051120.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781530051120.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781530051120.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781530051120.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-for-everybody-exploring-data-in-python-3/9781530051120">Python for Everybody: Exploring Data in Python 3</a>
+      </h2>
+      <h3 class="text-s">
+        Aimee Andrion
+      </h3>
+      <div class="pb-4 self-start text-s">
+        <div class="font-sans-bold">
+          $9.99
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tAeWil3hj1bPI8V5uO4sWDNKJ/uaXFCXtdGgYq9obfjOizetD8pWiqNscB5EjrvmXk7rSaU4u1C2vd06dcldCg==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="11390786" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-programming-language/9781423241881">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781423241881.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781423241881.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781423241881.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781423241881.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-programming-language/9781423241881">Python Programming Language</a>
+      </h2>
+      <h3 class="text-s">
+        Berajah Jayne
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $7.95
+          </div>
+        <div class="font-sans-bold">
+          $7.31
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PtvCDVfFcuI7YStRLuMt9J0I6M58lBSAxBi4hlEP5cBEV2MqBe6rPlcunjbSg7pK8AwkfEPw/0fHdMXei67VMg==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="12504456" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-basics-a-practical-introduction-to-python-3/9781775093329">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781775093329.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781775093329.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781775093329.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781775093329.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-basics-a-practical-introduction-to-python-3/9781775093329">Python Basics: A Practical Introduction to Python 3</a>
+      </h2>
+      <h3 class="text-s">
+        Dan Bader, Joanna Jablonski,  et al.
+      </h3>
+      <div class="pb-4 self-start text-s">
+        <div class="font-sans-bold">
+          $39.99
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RNu6TgRvOKGn4aW/gT4Z1VEgQKjvzb69QhGUbxHvA1Y+VxtpVkThfcuuENh9Xo5rPCSMGtCpVXpBfek3y04zpA==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="21382924" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/the-greedy-python/9781442445765">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781442445765.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781442445765.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781442445765.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781442445765.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/the-greedy-python/9781442445765">The Greedy Python</a>
+      </h2>
+      <h3 class="text-s">
+        Richard Buckley and Eric Carle
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $4.99
+          </div>
+        <div class="font-sans-bold">
+          $4.59
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YRzeIZL4iVrj94lnDbewope/r5xW5A0OlK40zvHo0ukbkH8GwNNQho+4PADx1ycc+rtjLmmA5smXwkmWK0niGw==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="14888685" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-the-bible-3-manuscripts-in-1-book-python-programming-for-beginners-python-programming-for-intermediates-python-715ca5a1-bcfd-4ec2-96fd-eb3fce3704ab/9781980953906">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781980953906.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781980953906.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781980953906.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781980953906.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-the-bible-3-manuscripts-in-1-book-python-programming-for-beginners-python-programming-for-intermediates-python-715ca5a1-bcfd-4ec2-96fd-eb3fce3704ab/9781980953906">Python: - The Bible- 3 Manuscripts in 1 book: -Python...</a>
+      </h2>
+      <h3 class="text-s">
+        Maurice J. Thompson
+      </h3>
+      <div class="pb-4 self-start text-s">
+        <div class="font-sans-bold">
+          $27.97
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZW546apOt+4g3DEd3O97Mla1nR+GDA59AG8i6fjrEDcf4tnO+GVuMkyThHogj+yMO7FRrblo5boDA1+xIkogxQ==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="21114756" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-pocket-reference-python-in-your-pocket/9781449357016">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781449357016.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781449357016.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781449357016.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781449357016.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-pocket-reference-python-in-your-pocket/9781449357016">Python Pocket Reference: Python in Your Pocket</a>
+      </h2>
+      <h3 class="text-s">
+        Mark Lutz
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $19.99
+          </div>
+        <div class="font-sans-bold">
+          $18.39
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JioOw03mg07BXZVDcnx6s81PVzfx2dvRzFYLSALcXitcpq/kH81akq0SICSOHO0NoEubhc69MBbPOnYQ2H1u2Q==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="8548249" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-in-easy-steps-covers-python-3-7/9781840788129">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781840788129.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781840788129.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781840788129.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781840788129.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-in-easy-steps-covers-python-3-7/9781840788129">Python in Easy Steps: Covers Python 3.7</a>
+      </h2>
+      <h3 class="text-s">
+        Mike McGrath
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $15.99
+          </div>
+        <div class="font-sans-bold">
+          $14.71
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8McF3+6XPEF2+wNgAZyWbiMFoG9skUDAOhNrX6eB0aCKS6T4vLzlnRq0tgf9/AHQTgFs3VP1qwc5fxYHfSDhUg==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="16135240" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/effective-python-90-specific-ways-to-write-better-python/9780134853987">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9780134853987.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9780134853987.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9780134853987.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9780134853987.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/effective-python-90-specific-ways-to-write-better-python/9780134853987">Effective Python: 90 Specific Ways to Write Better Python</a>
+      </h2>
+      <h3 class="text-s">
+        Brett Slatkin
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $49.99
+          </div>
+        <div class="font-sans-bold">
+          $45.99
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="kHFSlVVJtbYEFhzTuHPOopUTBNp+GERJdi9CNstlxEvq/fOyB2JsamhZqbREE1kc+BfIaEF8r451Qz9uEcT0uQ==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="11011197" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-tricks-a-buffet-of-awesome-python-features/9781775093305">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781775093305.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781775093305.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781775093305.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781775093305.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-tricks-a-buffet-of-awesome-python-features/9781775093305">Python Tricks: A Buffet of Awesome Python Features</a>
+      </h2>
+      <h3 class="text-s">
+        Dan Bader
+      </h3>
+      <div class="pb-4 self-start text-s">
+        <div class="font-sans-bold">
+          $29.99
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="cfOf5flMVGSbQuh9E0nzS3XeBNbw0oZUt4ZIwUos990Lfz7Cq2eNuPcNXRrvKWT1GNrIZM+2bZO06jWZkI3HLw==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="11540856" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-all-in-one-for-dummies-9781119787600/9781119787600">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781119787600.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781119787600.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781119787600.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781119787600.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-all-in-one-for-dummies-9781119787600/9781119787600">Python All-In-One for Dummies</a>
+      </h2>
+      <h3 class="text-s">
+        Alan Simpson and John C. Shovic
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $39.99
+          </div>
+        <div class="font-sans-bold">
+          $36.79
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nM/KiInSW9D0iFxXeneAxAmh37S/kZUi3epBlwibGOLmQ2uv2/mCDJjH6TCGFxd6ZKUTBoD1fuXehjzP0jooEA==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="20101719" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/pythons-9781791141585/9781791141578">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781791141578.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781791141578.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781791141578.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781791141578.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/pythons-9781791141585/9781791141578">Pythons</a>
+      </h2>
+      <h3 class="text-s">
+        Serena Stone
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $28.55
+          </div>
+        <div class="font-sans-bold">
+          $26.27
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="etV5g8Kc1kX0Mtnl3M8PbtdxAPA1u3ijoN+fr9qEjTQAWdikkLcPmZh9bIIgr5jQunXMQgrfk2Sjs+L3ACW9xg==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  Backorder
+</button>
+        <input type="hidden" value="22070885" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/ball-python-royal-python-9781907337673/9781907337673">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781907337673.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781907337673.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781907337673.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781907337673.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/ball-python-royal-python-9781907337673/9781907337673">Ball Python (Royal Python)</a>
+      </h2>
+      <h3 class="text-s">
+        Lance Jepson
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $14.99
+          </div>
+        <div class="font-sans-bold">
+          $13.79
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YkXEQEu66Qa8o/7j0Gs/0kRnyvdSfM0ZVDoMYdTnjH0YyWVnGZEw2tDsS4QsC6hsKWMGRW0YJt5XVnE5Dka8jw==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  Backorder
+</button>
+        <input type="hidden" value="9134051" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-cookbook-recipes-for-mastering-python-3/9781449340377">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781449340377.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781449340377.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781449340377.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781449340377.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-cookbook-recipes-for-mastering-python-3/9781449340377">Python Cookbook: Recipes for Mastering Python 3</a>
+      </h2>
+      <h3 class="text-s">
+        David Beazley and Brian K. Jones
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $59.99
+          </div>
+        <div class="font-sans-bold">
+          $55.19
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="U9vbQMhViUgsNfRiBXqRFYWEc2L2el1xKJ8IMolZdgApV3pnmn5QlEB6QQX5Ggar6IC/0MketrYr83VqU/hG8g==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="8546210" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/black-hat-python-2nd-edition-python-programming-for-hackers-and-pentesters/9781718501126">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781718501126.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781718501126.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781718501126.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781718501126.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/black-hat-python-2nd-edition-python-programming-for-hackers-and-pentesters/9781718501126">Black Hat Python, 2nd Edition: Python Programming for Hackers...</a>
+      </h2>
+      <h3 class="text-s">
+        Justin Seitz and Tim Arnold
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $44.99
+          </div>
+        <div class="font-sans-bold">
+          $41.39
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="70ykjL4MNzvdVfcLXrZdn42XmM0R56RvD4JEa04RTn6VwAWr7Cfu57EaQmyi1soh4JNUfy6DT6gM7jkzlLB+jA==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="19852061" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/coding-projects-in-python/9781465461889">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781465461889.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781465461889.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781465461889.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781465461889.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/coding-projects-in-python/9781465461889">Coding Projects in Python</a>
+      </h2>
+      <h3 class="text-s">
+        DK
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $19.99
+          </div>
+        <div class="font-sans-bold">
+          $18.39
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Mbvu7/nPtQUMZL219JvNOKBxRWKW5uZC5WYpTwjYmhhLN0/Iq+Rs2WArCNII+1qGzXWJ0KmCDYXmClQX0nmq6g==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="16456625" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/the-greedy-python-9781416982906/9781416982906">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781416982906.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781416982906.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781416982906.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781416982906.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/the-greedy-python-9781416982906/9781416982906">The Greedy Python</a>
+      </h2>
+      <h3 class="text-s">
+        Richard Buckley and Eric Carle
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $7.99
+          </div>
+        <div class="font-sans-bold">
+          $7.35
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZjZjztkOl4Xxx3p/fqwHi8aXUvrejXditnS+N7SaMr0cusLpiyVOWZ2IzxiCzJA1q5OeSOHpnKW1GMNvbjsCTw==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="14377373" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-programming-an-introduction-to-computer-science/9781590282755">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781590282755.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781590282755.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781590282755.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781590282755.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-programming-an-introduction-to-computer-science/9781590282755">Python Programming: An Introduction to Computer Science</a>
+      </h2>
+      <h3 class="text-s">
+        John M. Zelle
+      </h3>
+      <div class="pb-4 self-start text-s">
+        <div class="font-sans-bold">
+          $54.00
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="MVh/Hzd5EOPBzflQMwJWlAqzsyal6Ja5L3Y1Fq8nIDlL1N44ZVLJP62CTDfPYsEqZ7d/lJqMfX4sGkhOdYYQyw==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="14667587" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/a-day-in-code-python-learn-to-code-in-python-through-an-illustrated-story-for-kids-and-beginners-9781735907949/9781735907949">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781735907949.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781735907949.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781735907949.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781735907949.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/a-day-in-code-python-learn-to-code-in-python-through-an-illustrated-story-for-kids-and-beginners-9781735907949/9781735907949">A Day in Code- Python: Learn to Code in Python through an...</a>
+      </h2>
+      <h3 class="text-s">
+        Shari Eskenas and Ana Quintero Villafraz
+      </h3>
+      <div class="pb-4 self-start text-s">
+        <div class="font-sans-bold">
+          $14.99
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7lPdMZhrKdkoKrbBzWbSQ62FzU7hVUjSBHf6YGzpTrqU33wWykDwBURlA6YxBkX9wIEB/N4xoxUHG4c4tkh+SA==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="21985945" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/deep-learning-with-python/9781617294433">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781617294433.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781617294433.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781617294433.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781617294433.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/deep-learning-with-python/9781617294433">Deep Learning with Python</a>
+      </h2>
+      <h3 class="text-s">
+        François Chollet
+      </h3>
+      <div class="pb-4 self-start text-s">
+        <div class="font-sans-bold">
+          $49.99
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hyFt0y31t57Ma20tQq7iR3fz5SdIe+9ZyHKiaQAasVn9rcz0f95uQqAk2Eq+znX5GvcplXcfBJ7LHt8x2ruBqw==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="12879725" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/pythons-9781977123190/9781977123190">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781977123190.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781977123190.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781977123190.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781977123190.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/pythons-9781977123190/9781977123190">Pythons</a>
+      </h2>
+      <h3 class="text-s">
+        Martha E. H. Rustad
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $29.32
+          </div>
+        <div class="font-sans-bold">
+          $26.97
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="djl4x1uKLIpGBEyZqH9xpgOz7Wcbu2Ll8SHkgij81R8MtdngCaH1VipL+f5UH+YYbrch1STfiSLyTZna8l3l7Q==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="18659342" name="variant_id"/>
+</form>    </div>
+    <div class="booklist-book">
+      <div class="cover-wrapper">
+        <a class="cover" href="/books/python-scripting-for-arcgis-pro/9781589484993">
+          <div class="product-image">
+            <img class="w-full" srcset="https://images-us.bookshop.org/ingram/9781589484993.jpg?height=250&amp;v=v2, https://images-us.bookshop.org/ingram/9781589484993.jpg?height=500&amp;v=v2 1.5x, https://images-us.bookshop.org/ingram/9781589484993.jpg?height=500&amp;v=v2 2x" src="https://images-us.bookshop.org/ingram/9781589484993.jpg?height=250&amp;v=v2" />
+          </div>
+</a>      </div>
+      <h2 class="font-serif-bold lg:pt-4 leading-tight">
+        <a href="/books/python-scripting-for-arcgis-pro/9781589484993">Python Scripting for Arcgis Pro</a>
+      </h2>
+      <h3 class="text-s">
+        Paul A. Zandbergen
+      </h3>
+      <div class="pb-4 self-start text-s">
+          <div class='line-through mr-2 lg:mr-0 text-primary'>
+            $79.99
+          </div>
+        <div class="font-sans-bold">
+          $73.59
+        </div>
+      </div>
+      <form class="pt-4 col-span-2 lg:col-span-1 lg:mt-auto lg:pt-0" action="/orders/populate_remote" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6SJo4hud8kyw0Q/f3lq5cONEUOnZc4TpI4xAT+su9cyTrsnFSbYrkNyeurgiOi7OjkCcW+YXby4g4D0XMY/FPg==" />
+        <a class="button outline in-cart-button inline-flex w-full hidden" href="https://bookshop.org/cart">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_primary-1ea52a7f7ffaaa998fb9b882f48dd1b4376910c02d73604893232ba53adb9132.svg" />
+  in cart
+</a>
+<button class="button primary inline-flex w-full " name="button" value="cart" type="submit">
+  <img class="mr-2" src="https://rails-assets-us.bookshop.org/assets/ic_cart_light-b26a46b06b6ae40a9499157d18cb2eba8f8d81b0de5637f93ef851ea54ceae4c.svg" />
+  add to cart
+</button>
+        <input type="hidden" value="18011322" name="variant_id"/>
+</form>    </div>
+</div>
+
+  <div class="pt-8">
+      <nav class="pagination" role="navigation" aria-label="pager">
+    
+    
+        <span class="page current">
+  1
+</span>
+
+        <span class="page">
+  <a rel="next" href="/books?keywords=python&amp;page=2">2</a>
+</span>
+
+        <span class="page">
+  <a href="/books?keywords=python&amp;page=3">3</a>
+</span>
+
+        <span class="page">
+  <a href="/books?keywords=python&amp;page=4">4</a>
+</span>
+
+        <span class="page">
+  <a href="/books?keywords=python&amp;page=5">5</a>
+</span>
+
+        <span class="page gap">&hellip;</span>
+
+      <span class="next">
+  <a rel="next" href="/books?keywords=python&amp;page=2">Next &rsaquo;</a>
+</span>
+
+      <span class="last">
+  <a href="/books?keywords=python&amp;page=100">Last &raquo;</a>
+</span>
+
+  </nav>
+
+  </div>
+</section>
+
+        </div>
+        
+      </div>
+    </main>
+    <div class="design-system">
+  <footer class="footer has-background-accent-2 has-text-white">
+    <div class="container">
+      <div class="content">
+        <div class="columns is-centered">
+          <div class="column has-text-centered-mobile">
+            <img title="Bookshop.org Logo" width="244" height="37" src="https://rails-assets-us.bookshop.org/assets/logo-light-c650cee1761bf7cfee9351767c3e098191eca1aeac77db1455aee5313383f2ef.svg" />
+            <p class="is-size-l mb-6">Supporting Local Bookstores</p>
+            <p class="social">
+              Follow us 
+              <a href="https://twitter.com/bookshop_org">
+                <img title="Twitter Logo" width="48" height="48" src="https://rails-assets-us.bookshop.org/assets/icon-twitter-5acbd084f784885a73c99242d5d3d12ce4bc9ea1063bf462b03ab0fa5e6df67e.svg" />
+</a>              <a href="https://www.facebook.com/bookshop.org/">
+                <img title="Facebook Logo" width="48" height="48" src="https://rails-assets-us.bookshop.org/assets/icon-facebook-573255ba1a893bcc1b0e26d5bb3d26e29950e72079360d7b58e6ca1aa628757c.svg" />
+</a>              <a href="https://www.instagram.com/bookshop_org/">
+                <img title="Instagram Logo" width="48" height="48" src="https://rails-assets-us.bookshop.org/assets/icon-instagram-015ea6b8500fb243a606a5117772f949603f9d035d5ab677b7d24a6f379e3cbe.svg" />
+</a>            </p>
+            <p>Payments Accepted: American Express, Discover, Mastercard and Visa</p>
+          </div>
+          <div class="column has-text-centered">
+            <nav>
+              <a class="is-block mb-4 has-text-white" href="/pages/about">About</a>
+              <a class="is-block mb-4 has-text-white" rel="noreferrer" href="https://support.bookshop.org/">Support / Help</a>
+              <a class="is-block mb-4 has-text-white" href="/affiliates/profile/introduction">Become an Affiliate</a>
+              <a class="is-block mb-4 has-text-white" href="/gift_cards"><span class="translation_missing" title="translation missing: en.spree.shared.footer.gift_cards">Gift Cards</span></a>
+              <a class="is-block mb-4 has-text-white" rel="noreferrer" href="https://public-production.bookshop.org/documents/Bookshop%20Author%20Brochure.pdf"><span class="translation_missing" title="translation missing: en.spree.shared.footer.bookshop_for_authors">Bookshop For Authors</span></a>
+              <a class="is-block mb-4 has-text-white" rel="noreferrer" href="https://support.bookshop.org/support/solutions/folders/65000154820"><span class="translation_missing" title="translation missing: en.spree.shared.footer.bookshop_for_bookstores">Bookshop For Bookstores</span></a>
+              <a class="is-block mb-4 has-text-white" href="/pages/contact">Contact</a>
+              <a class="is-block mb-4 has-text-white" href="/pages/terms_of_use#returns">Returns and Refund Policy</a>
+              <a class="is-block mb-4 has-text-white is-hidden-tablet" href="/pages/terms_of_use">Terms of Use</a>
+              <a class="is-block mb-4 has-text-white is-hidden-tablet" href="/pages/privacy_notice">Privacy Notice</a>
+            </nav>
+          </div>
+          <div class="column trustpilot">
+            <div
+              class="trustpilot-widget"
+              data-locale="en-US"
+              data-template-id="53aa8807dec7e10d38f59f32"
+              data-businessunit-id="5e8b11f2dbc13c0001669534"
+              data-style-height="120px"
+              data-style-width="255px"
+              data-theme="dark"
+              style="position: relative"
+            >
+              <iframe
+                style="
+                  position: relative;
+                  height: 120px;
+                  width: 255px;
+                  border-style: none;
+                  display: block;
+                  overflow: hidden;
+                "
+                title="Customer reviews powered by Trustpilot"
+                src="https://widget.trustpilot.com/trustboxes/53aa8807dec7e10d38f59f32/index.html?templateId=53aa8807dec7e10d38f59f32&amp;businessunitId=5e8b11f2dbc13c0001669534#locale=en-US&amp;styleHeight=120px&amp;styleWidth=255px&amp;theme=dark"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="container is-max-desktop mt-6">
+          <nav class="has-text-centered">
+            <span class="has-text-white">&copy; 2021 All Rights Reserved</span>
+              <a class="has-text-white mx-7 is-hidden-mobile" href="https://bookshop.org/pages/terms_of_use">Terms of Use</a>
+              <a class="has-text-white is-hidden-mobile" href="https://bookshop.org/pages/privacy_notice">Privacy Notice</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+      async=""
+    ></script>
+  </footer>
+</div>
+
+      <script src="https://rails-assets-us.bookshop.org/assets/spree/frontend/all-0d49c74bc9064a6a36e008acb7c23ddf9ab9c6c06fdc23e6e210cb81bffa2280.js"></script>
+      <script src="https://rails-assets-us.bookshop.org/assets/application-4f566aa137fab203d0c310e11e59b99e85abcdb47ff537ee0863759e7ec44eeb.js"></script>
+    <script async type="text/javascript" 
+        src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=RBxUNF">
+</script>
+
+<script>
+    var _learnq = _learnq || [];
+
+    _learnq.push([
+      'identify',
+      {
+        $email: ''
+      }
+    ]);
+</script>
+
+    
+      <script src="//d2wy8f7a9ursnm.cloudfront.net/v7/bugsnag.min.js"></script>
+      <script>Bugsnag.start({ apiKey: '8bf85e1df229d0d3f2c7d8995a8bbeab' })</script>
+    <script src="https://www.dwin1.com/19038.js" type="text/javascript" defer="defer"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6886cdc58c568498","token":"64c9a06f8c8f49ccaf84efc92bc1bd37","version":"2021.8.1","si":10}'></script>
+</body></html>
