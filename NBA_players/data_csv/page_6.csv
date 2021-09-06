@@ -1,0 +1,249 @@
+,Player,Team,Number,Position,Height,Weight,Last Attended,Country,links,Game Date,Matchup,W/L,MIN,PTS
+0,ErsanIlyasova,UTA,77.0,F,6-9,235 lbs,FC Barcelona,Turkey,https://www.nba.com/player/101141/ersan-ilyasova,"JUN 12, 2021",UTA @ LAC,L,3,4
+1,ErsanIlyasova,UTA,77.0,F,6-9,235 lbs,FC Barcelona,Turkey,https://www.nba.com/player/101141/ersan-ilyasova,"MAY 14, 2021",UTA @ OKC,W,5,0
+2,ErsanIlyasova,UTA,77.0,F,6-9,235 lbs,FC Barcelona,Turkey,https://www.nba.com/player/101141/ersan-ilyasova,"MAY 07, 2021",UTA vs. DEN,W,6,5
+3,ErsanIlyasova,UTA,77.0,F,6-9,235 lbs,FC Barcelona,Turkey,https://www.nba.com/player/101141/ersan-ilyasova,"MAY 05, 2021",UTA vs. SAS,W,7,0
+4,ErsanIlyasova,UTA,77.0,F,6-9,235 lbs,FC Barcelona,Turkey,https://www.nba.com/player/101141/ersan-ilyasova,"MAY 01, 2021",UTA vs. TOR,W,9,3
+5,JoeIngles,UTA,2.0,F-G,6-8,220 lbs,Maccabi Tel Aviv,Australia,https://www.nba.com/player/204060/joe-ingles,"JUN 18, 2021",UTA @ LAC,L,18,5
+6,JoeIngles,UTA,2.0,F-G,6-8,220 lbs,Maccabi Tel Aviv,Australia,https://www.nba.com/player/204060/joe-ingles,"JUN 16, 2021",UTA vs. LAC,L,32,12
+7,JoeIngles,UTA,2.0,F-G,6-8,220 lbs,Maccabi Tel Aviv,Australia,https://www.nba.com/player/204060/joe-ingles,"JUN 14, 2021",UTA @ LAC,L,27,19
+8,JoeIngles,UTA,2.0,F-G,6-8,220 lbs,Maccabi Tel Aviv,Australia,https://www.nba.com/player/204060/joe-ingles,"JUN 12, 2021",UTA @ LAC,L,28,19
+9,JoeIngles,UTA,2.0,F-G,6-8,220 lbs,Maccabi Tel Aviv,Australia,https://www.nba.com/player/204060/joe-ingles,"JUN 10, 2021",UTA vs. LAC,W,33,19
+10,BrandonIngram,NOP,14.0,F,6-8,190 lbs,Duke,USA,https://www.nba.com/player/1627742/brandon-ingram,"MAY 04, 2021",NOP vs. GSW,W,25,13
+11,BrandonIngram,NOP,14.0,F,6-8,190 lbs,Duke,USA,https://www.nba.com/player/1627742/brandon-ingram,"MAY 03, 2021",NOP vs. GSW,L,35,19
+12,BrandonIngram,NOP,14.0,F,6-8,190 lbs,Duke,USA,https://www.nba.com/player/1627742/brandon-ingram,"MAY 01, 2021",NOP @ MIN,W,40,14
+13,BrandonIngram,NOP,14.0,F,6-8,190 lbs,Duke,USA,https://www.nba.com/player/1627742/brandon-ingram,"APR 29, 2021",NOP @ OKC,W,31,24
+14,BrandonIngram,NOP,14.0,F,6-8,190 lbs,Duke,USA,https://www.nba.com/player/1627742/brandon-ingram,"APR 28, 2021",NOP @ DEN,L,35,27
+15,KyrieIrving,BKN,11.0,G,6-2,195 lbs,Duke,Australia,https://www.nba.com/player/202681/kyrie-irving,"JUN 13, 2021",BKN @ MIL,L,17,11
+16,KyrieIrving,BKN,11.0,G,6-2,195 lbs,Duke,Australia,https://www.nba.com/player/202681/kyrie-irving,"JUN 10, 2021",BKN @ MIL,L,45,22
+17,KyrieIrving,BKN,11.0,G,6-2,195 lbs,Duke,Australia,https://www.nba.com/player/202681/kyrie-irving,"JUN 07, 2021",BKN vs. MIL,W,34,22
+18,KyrieIrving,BKN,11.0,G,6-2,195 lbs,Duke,Australia,https://www.nba.com/player/202681/kyrie-irving,"JUN 05, 2021",BKN vs. MIL,W,45,25
+19,KyrieIrving,BKN,11.0,G,6-2,195 lbs,Duke,Australia,https://www.nba.com/player/202681/kyrie-irving,"JUN 01, 2021",BKN vs. BOS,W,38,25
+20,JonathanIsaac,ORL,1.0,F,6-11,230 lbs,Florida State,USA,https://www.nba.com/player/1628371/jonathan-isaac,"AUG 02, 2020",ORL vs. SAC,W,15,4
+21,JonathanIsaac,ORL,1.0,F,6-11,230 lbs,Florida State,USA,https://www.nba.com/player/1628371/jonathan-isaac,"JUL 31, 2020",ORL @ BKN,W,16,16
+22,JonathanIsaac,ORL,1.0,F,6-11,230 lbs,Florida State,USA,https://www.nba.com/player/1628371/jonathan-isaac,"JUL 27, 2020",ORL @ DEN,W,7,13
+23,JonathanIsaac,ORL,1.0,F,6-11,230 lbs,Florida State,USA,https://www.nba.com/player/1628371/jonathan-isaac,"JAN 01, 2020",ORL @ WAS,W,2,2
+24,JonathanIsaac,ORL,1.0,F,6-11,230 lbs,Florida State,USA,https://www.nba.com/player/1628371/jonathan-isaac,"DEC 30, 2019",ORL vs. ATL,L,33,13
+25,WesIwundu,CHA,4.0,F,6-6,195 lbs,Kansas State,USA,https://www.nba.com/player/1628411/wes-iwundu,"MAY 12, 2021",NOP @ DAL,L,13,4
+26,WesIwundu,CHA,4.0,F,6-6,195 lbs,Kansas State,USA,https://www.nba.com/player/1628411/wes-iwundu,"MAY 10, 2021",NOP @ MEM,L,8,0
+27,WesIwundu,CHA,4.0,F,6-6,195 lbs,Kansas State,USA,https://www.nba.com/player/1628411/wes-iwundu,"MAY 09, 2021",NOP @ CHA,W,18,2
+28,WesIwundu,CHA,4.0,F,6-6,195 lbs,Kansas State,USA,https://www.nba.com/player/1628411/wes-iwundu,"MAY 07, 2021",NOP @ PHI,L,22,2
+29,WesIwundu,CHA,4.0,F,6-6,195 lbs,Kansas State,USA,https://www.nba.com/player/1628411/wes-iwundu,"MAY 03, 2021",NOP vs. GSW,L,2,0
+30,FrankJackson,DET,5.0,G,6-3,205 lbs,Duke,USA,https://www.nba.com/player/1628402/frank-jackson,"MAY 09, 2021",DET vs. CHI,L,8,2
+31,FrankJackson,DET,5.0,G,6-3,205 lbs,Duke,USA,https://www.nba.com/player/1628402/frank-jackson,"MAY 08, 2021",DET @ PHI,L,20,11
+32,FrankJackson,DET,5.0,G,6-3,205 lbs,Duke,USA,https://www.nba.com/player/1628402/frank-jackson,"MAY 06, 2021",DET vs. MEM,W,32,11
+33,FrankJackson,DET,5.0,G,6-3,205 lbs,Duke,USA,https://www.nba.com/player/1628402/frank-jackson,"MAY 04, 2021",DET vs. CHA,L,29,14
+34,FrankJackson,DET,5.0,G,6-3,205 lbs,Duke,USA,https://www.nba.com/player/1628402/frank-jackson,"MAY 03, 2021",DET vs. ORL,L,35,19
+35,IsaiahJackson,IND,23.0,F,6-10,205 lbs,Kentucky,USA,https://www.nba.com/player/1630543/isaiah-jackson,No data,No data,No data,No data,No data
+36,IsaiahJackson,IND,23.0,F,6-10,205 lbs,Kentucky,USA,https://www.nba.com/player/1630543/isaiah-jackson,No data,No data,No data,No data,No data
+37,IsaiahJackson,IND,23.0,F,6-10,205 lbs,Kentucky,USA,https://www.nba.com/player/1630543/isaiah-jackson,No data,No data,No data,No data,No data
+38,IsaiahJackson,IND,23.0,F,6-10,205 lbs,Kentucky,USA,https://www.nba.com/player/1630543/isaiah-jackson,No data,No data,No data,No data,No data
+39,IsaiahJackson,IND,23.0,F,6-10,205 lbs,Kentucky,USA,https://www.nba.com/player/1630543/isaiah-jackson,No data,No data,No data,No data,No data
+40,JoshJackson,DET,20.0,G-F,6-8,207 lbs,Kansas,USA,https://www.nba.com/player/1628367/josh-jackson,"MAY 16, 2021",DET vs. MIA,L,24,17
+41,JoshJackson,DET,20.0,G-F,6-8,207 lbs,Kansas,USA,https://www.nba.com/player/1628367/josh-jackson,"MAY 14, 2021",DET vs. DEN,L,33,11
+42,JoshJackson,DET,20.0,G-F,6-8,207 lbs,Kansas,USA,https://www.nba.com/player/1628367/josh-jackson,"MAY 11, 2021",DET vs. MIN,L,24,11
+43,JoshJackson,DET,20.0,G-F,6-8,207 lbs,Kansas,USA,https://www.nba.com/player/1628367/josh-jackson,"MAY 03, 2021",DET vs. ORL,L,22,6
+44,JoshJackson,DET,20.0,G-F,6-8,207 lbs,Kansas,USA,https://www.nba.com/player/1628367/josh-jackson,"MAY 01, 2021",DET @ CHA,L,35,5
+45,JustinJackson,MIL,44.0,F,6-8,220 lbs,North Carolina,USA,https://www.nba.com/player/1628382/justin-jackson,"JUN 25, 2021",MIL vs. ATL,W,3,0
+46,JustinJackson,MIL,44.0,F,6-8,220 lbs,North Carolina,USA,https://www.nba.com/player/1628382/justin-jackson,"JUN 17, 2021",MIL vs. BKN,W,4,0
+47,JustinJackson,MIL,44.0,F,6-8,220 lbs,North Carolina,USA,https://www.nba.com/player/1628382/justin-jackson,"JUN 13, 2021",MIL vs. BKN,W,2,0
+48,JustinJackson,MIL,44.0,F,6-8,220 lbs,North Carolina,USA,https://www.nba.com/player/1628382/justin-jackson,"JUN 07, 2021",MIL @ BKN,L,5,6
+49,JustinJackson,MIL,44.0,F,6-8,220 lbs,North Carolina,USA,https://www.nba.com/player/1628382/justin-jackson,"MAY 29, 2021",MIL @ MIA,W,1,0
+50,ReggieJackson,LAC,1.0,G,6-2,208 lbs,Boston College,USA,https://www.nba.com/player/202704/reggie-jackson,"JUN 30, 2021",LAC vs. PHX,L,37,13
+51,ReggieJackson,LAC,1.0,G,6-2,208 lbs,Boston College,USA,https://www.nba.com/player/202704/reggie-jackson,"JUN 28, 2021",LAC @ PHX,W,38,23
+52,ReggieJackson,LAC,1.0,G,6-2,208 lbs,Boston College,USA,https://www.nba.com/player/202704/reggie-jackson,"JUN 26, 2021",LAC vs. PHX,L,40,20
+53,ReggieJackson,LAC,1.0,G,6-2,208 lbs,Boston College,USA,https://www.nba.com/player/202704/reggie-jackson,"JUN 24, 2021",LAC vs. PHX,W,33,23
+54,ReggieJackson,LAC,1.0,G,6-2,208 lbs,Boston College,USA,https://www.nba.com/player/202704/reggie-jackson,"JUN 22, 2021",LAC @ PHX,L,39,19
+55,JarenJackson Jr.,MEM,13.0,F-C,6-11,242 lbs,Michigan State,USA,https://www.nba.com/player/1628991/jaren-jackson-jr,"JUN 02, 2021",MEM @ UTA,L,29,15
+56,JarenJackson Jr.,MEM,13.0,F-C,6-11,242 lbs,Michigan State,USA,https://www.nba.com/player/1628991/jaren-jackson-jr,"MAY 31, 2021",MEM vs. UTA,L,26,21
+57,JarenJackson Jr.,MEM,13.0,F-C,6-11,242 lbs,Michigan State,USA,https://www.nba.com/player/1628991/jaren-jackson-jr,"MAY 29, 2021",MEM vs. UTA,L,27,9
+58,JarenJackson Jr.,MEM,13.0,F-C,6-11,242 lbs,Michigan State,USA,https://www.nba.com/player/1628991/jaren-jackson-jr,"MAY 26, 2021",MEM @ UTA,L,31,16
+59,JarenJackson Jr.,MEM,13.0,F-C,6-11,242 lbs,Michigan State,USA,https://www.nba.com/player/1628991/jaren-jackson-jr,"MAY 23, 2021",MEM @ UTA,W,24,7
+60,LeBronJames,LAL,6.0,F,6-9,250 lbs,St. Vincent-St. Mary HS (OH),USA,https://www.nba.com/player/2544/lebron-james,"JUN 03, 2021",LAL vs. PHX,L,41,29
+61,LeBronJames,LAL,6.0,F,6-9,250 lbs,St. Vincent-St. Mary HS (OH),USA,https://www.nba.com/player/2544/lebron-james,"JUN 01, 2021",LAL @ PHX,L,32,24
+62,LeBronJames,LAL,6.0,F,6-9,250 lbs,St. Vincent-St. Mary HS (OH),USA,https://www.nba.com/player/2544/lebron-james,"MAY 30, 2021",LAL vs. PHX,L,38,25
+63,LeBronJames,LAL,6.0,F,6-9,250 lbs,St. Vincent-St. Mary HS (OH),USA,https://www.nba.com/player/2544/lebron-james,"MAY 27, 2021",LAL vs. PHX,W,38,21
+64,LeBronJames,LAL,6.0,F,6-9,250 lbs,St. Vincent-St. Mary HS (OH),USA,https://www.nba.com/player/2544/lebron-james,"MAY 25, 2021",LAL @ PHX,W,39,23
+65,MikeJames,BKN,55.0,G,6-1,175 lbs,Lamar,USA,https://www.nba.com/player/1628455/mike-james,"JUN 17, 2021",BKN @ MIL,L,4,0
+66,MikeJames,BKN,55.0,G,6-1,175 lbs,Lamar,USA,https://www.nba.com/player/1628455/mike-james,"JUN 15, 2021",BKN vs. MIL,W,3,0
+67,MikeJames,BKN,55.0,G,6-1,175 lbs,Lamar,USA,https://www.nba.com/player/1628455/mike-james,"JUN 13, 2021",BKN @ MIL,L,20,5
+68,MikeJames,BKN,55.0,G,6-1,175 lbs,Lamar,USA,https://www.nba.com/player/1628455/mike-james,"JUN 10, 2021",BKN @ MIL,L,12,2
+69,MikeJames,BKN,55.0,G,6-1,175 lbs,Lamar,USA,https://www.nba.com/player/1628455/mike-james,"JUN 07, 2021",BKN vs. MIL,W,24,10
+70,DeJonJarreau,IND,,G,6-5,185 lbs,Houston,USA,https://www.nba.com/player/1630610/dejon-jarreau,No data,No data,No data,No data,No data
+71,DeJonJarreau,IND,,G,6-5,185 lbs,Houston,USA,https://www.nba.com/player/1630610/dejon-jarreau,No data,No data,No data,No data,No data
+72,DeJonJarreau,IND,,G,6-5,185 lbs,Houston,USA,https://www.nba.com/player/1630610/dejon-jarreau,No data,No data,No data,No data,No data
+73,DeJonJarreau,IND,,G,6-5,185 lbs,Houston,USA,https://www.nba.com/player/1630610/dejon-jarreau,No data,No data,No data,No data,No data
+74,DeJonJarreau,IND,,G,6-5,185 lbs,Houston,USA,https://www.nba.com/player/1630610/dejon-jarreau,No data,No data,No data,No data,No data
+75,TyJerome,OKC,16.0,G-F,6-5,195 lbs,Virginia,USA,https://www.nba.com/player/1629660/ty-jerome,"MAY 06, 2021",OKC @ GSW,L,22,23
+76,TyJerome,OKC,16.0,G-F,6-5,195 lbs,Virginia,USA,https://www.nba.com/player/1629660/ty-jerome,"MAY 04, 2021",OKC vs. SAC,L,19,8
+77,TyJerome,OKC,16.0,G-F,6-5,195 lbs,Virginia,USA,https://www.nba.com/player/1629660/ty-jerome,"MAY 02, 2021",OKC vs. PHX,L,23,15
+78,TyJerome,OKC,16.0,G-F,6-5,195 lbs,Virginia,USA,https://www.nba.com/player/1629660/ty-jerome,"APR 29, 2021",OKC vs. NOP,L,19,5
+79,TyJerome,OKC,16.0,G-F,6-5,195 lbs,Virginia,USA,https://www.nba.com/player/1629660/ty-jerome,"APR 27, 2021",OKC @ BOS,W,24,15
+80,IsaiahJoe,PHI,7.0,G,6-4,165 lbs,Arkansas,USA,https://www.nba.com/player/1630198/isaiah-joe,"JUN 11, 2021",PHI @ ATL,W,1,2
+81,IsaiahJoe,PHI,7.0,G,6-4,165 lbs,Arkansas,USA,https://www.nba.com/player/1630198/isaiah-joe,"JUN 02, 2021",PHI vs. WAS,W,2,0
+82,IsaiahJoe,PHI,7.0,G,6-4,165 lbs,Arkansas,USA,https://www.nba.com/player/1630198/isaiah-joe,"MAY 29, 2021",PHI @ WAS,W,4,0
+83,IsaiahJoe,PHI,7.0,G,6-4,165 lbs,Arkansas,USA,https://www.nba.com/player/1630198/isaiah-joe,"MAY 26, 2021",PHI vs. WAS,W,3,0
+84,IsaiahJoe,PHI,7.0,G,6-4,165 lbs,Arkansas,USA,https://www.nba.com/player/1630198/isaiah-joe,"MAY 16, 2021",PHI vs. ORL,W,33,17
+85,CameronJohnson,PHX,23.0,F,6-8,210 lbs,North Carolina,USA,https://www.nba.com/player/1629661/cameron-johnson,"JUL 20, 2021",PHX @ MIL,L,16,3
+86,CameronJohnson,PHX,23.0,F,6-8,210 lbs,North Carolina,USA,https://www.nba.com/player/1629661/cameron-johnson,"JUL 17, 2021",PHX vs. MIL,L,22,6
+87,CameronJohnson,PHX,23.0,F,6-8,210 lbs,North Carolina,USA,https://www.nba.com/player/1629661/cameron-johnson,"JUL 14, 2021",PHX @ MIL,L,29,10
+88,CameronJohnson,PHX,23.0,F,6-8,210 lbs,North Carolina,USA,https://www.nba.com/player/1629661/cameron-johnson,"JUL 11, 2021",PHX @ MIL,L,30,14
+89,CameronJohnson,PHX,23.0,F,6-8,210 lbs,North Carolina,USA,https://www.nba.com/player/1629661/cameron-johnson,"JUL 08, 2021",PHX vs. MIL,W,18,8
+90,DavidJohnson,TOR,,G,6-3,203 lbs,Louisville,USA,https://www.nba.com/player/1630525/david-johnson,No data,No data,No data,No data,No data
+91,DavidJohnson,TOR,,G,6-3,203 lbs,Louisville,USA,https://www.nba.com/player/1630525/david-johnson,No data,No data,No data,No data,No data
+92,DavidJohnson,TOR,,G,6-3,203 lbs,Louisville,USA,https://www.nba.com/player/1630525/david-johnson,No data,No data,No data,No data,No data
+93,DavidJohnson,TOR,,G,6-3,203 lbs,Louisville,USA,https://www.nba.com/player/1630525/david-johnson,No data,No data,No data,No data,No data
+94,DavidJohnson,TOR,,G,6-3,203 lbs,Louisville,USA,https://www.nba.com/player/1630525/david-johnson,No data,No data,No data,No data,No data
+95,JalenJohnson,ATL,,F,6-8,210 lbs,Duke,USA,https://www.nba.com/player/1630552/jalen-johnson,No data,No data,No data,No data,No data
+96,JalenJohnson,ATL,,F,6-8,210 lbs,Duke,USA,https://www.nba.com/player/1630552/jalen-johnson,No data,No data,No data,No data,No data
+97,JalenJohnson,ATL,,F,6-8,210 lbs,Duke,USA,https://www.nba.com/player/1630552/jalen-johnson,No data,No data,No data,No data,No data
+98,JalenJohnson,ATL,,F,6-8,210 lbs,Duke,USA,https://www.nba.com/player/1630552/jalen-johnson,No data,No data,No data,No data,No data
+99,JalenJohnson,ATL,,F,6-8,210 lbs,Duke,USA,https://www.nba.com/player/1630552/jalen-johnson,No data,No data,No data,No data,No data
+100,JamesJohnson,BKN,16.0,F,6-7,240 lbs,Wake Forest,USA,https://www.nba.com/player/201949/james-johnson,"MAY 16, 2021",NOP vs. LAL,L,26,8
+101,JamesJohnson,BKN,16.0,F,6-7,240 lbs,Wake Forest,USA,https://www.nba.com/player/201949/james-johnson,"MAY 14, 2021",NOP @ GSW,L,17,5
+102,JamesJohnson,BKN,16.0,F,6-7,240 lbs,Wake Forest,USA,https://www.nba.com/player/201949/james-johnson,"MAY 12, 2021",NOP @ DAL,L,22,11
+103,JamesJohnson,BKN,16.0,F,6-7,240 lbs,Wake Forest,USA,https://www.nba.com/player/201949/james-johnson,"MAY 10, 2021",NOP @ MEM,L,28,13
+104,JamesJohnson,BKN,16.0,F,6-7,240 lbs,Wake Forest,USA,https://www.nba.com/player/201949/james-johnson,"MAY 09, 2021",NOP @ CHA,W,31,17
+105,KeldonJohnson,SAS,3.0,F-G,6-5,220 lbs,Kentucky,USA,https://www.nba.com/player/1629640/keldon-johnson,"MAY 19, 2021",SAS @ MEM,L,31,11
+106,KeldonJohnson,SAS,3.0,F-G,6-5,220 lbs,Kentucky,USA,https://www.nba.com/player/1629640/keldon-johnson,"MAY 16, 2021",SAS vs. PHX,L,22,9
+107,KeldonJohnson,SAS,3.0,F-G,6-5,220 lbs,Kentucky,USA,https://www.nba.com/player/1629640/keldon-johnson,"MAY 15, 2021",SAS vs. PHX,L,25,18
+108,KeldonJohnson,SAS,3.0,F-G,6-5,220 lbs,Kentucky,USA,https://www.nba.com/player/1629640/keldon-johnson,"MAY 13, 2021",SAS @ NYK,L,31,13
+109,KeldonJohnson,SAS,3.0,F-G,6-5,220 lbs,Kentucky,USA,https://www.nba.com/player/1629640/keldon-johnson,"MAY 12, 2021",SAS @ BKN,L,20,7
+110,KeonJohnson,LAC,,G,6-4,185 lbs,Tennessee,USA,https://www.nba.com/player/1630553/keon-johnson,No data,No data,No data,No data,No data
+111,KeonJohnson,LAC,,G,6-4,185 lbs,Tennessee,USA,https://www.nba.com/player/1630553/keon-johnson,No data,No data,No data,No data,No data
+112,KeonJohnson,LAC,,G,6-4,185 lbs,Tennessee,USA,https://www.nba.com/player/1630553/keon-johnson,No data,No data,No data,No data,No data
+113,KeonJohnson,LAC,,G,6-4,185 lbs,Tennessee,USA,https://www.nba.com/player/1630553/keon-johnson,No data,No data,No data,No data,No data
+114,KeonJohnson,LAC,,G,6-4,185 lbs,Tennessee,USA,https://www.nba.com/player/1630553/keon-johnson,No data,No data,No data,No data,No data
+115,StanleyJohnson,TOR,5.0,F-G,6-6,242 lbs,Arizona,USA,https://www.nba.com/player/1626169/stanley-johnson,"MAY 16, 2021",TOR vs. IND,L,43,24
+116,StanleyJohnson,TOR,5.0,F-G,6-6,242 lbs,Arizona,USA,https://www.nba.com/player/1626169/stanley-johnson,"MAY 14, 2021",TOR @ DAL,L,35,15
+117,StanleyJohnson,TOR,5.0,F-G,6-6,242 lbs,Arizona,USA,https://www.nba.com/player/1626169/stanley-johnson,"MAY 13, 2021",TOR @ CHI,L,43,35
+118,StanleyJohnson,TOR,5.0,F-G,6-6,242 lbs,Arizona,USA,https://www.nba.com/player/1626169/stanley-johnson,"MAY 11, 2021",TOR vs. LAC,L,21,9
+119,StanleyJohnson,TOR,5.0,F-G,6-6,242 lbs,Arizona,USA,https://www.nba.com/player/1626169/stanley-johnson,"MAY 08, 2021",TOR vs. MEM,L,13,0
+120,TylerJohnson,BKN,10.0,G,6-3,186 lbs,Fresno State,USA,https://www.nba.com/player/204020/tyler-johnson,"JUN 17, 2021",BKN @ MIL,L,5,0
+121,TylerJohnson,BKN,10.0,G,6-3,186 lbs,Fresno State,USA,https://www.nba.com/player/204020/tyler-johnson,"JUN 13, 2021",BKN @ MIL,L,9,2
+122,TylerJohnson,BKN,10.0,G,6-3,186 lbs,Fresno State,USA,https://www.nba.com/player/204020/tyler-johnson,"JUN 07, 2021",BKN vs. MIL,W,9,2
+123,TylerJohnson,BKN,10.0,G,6-3,186 lbs,Fresno State,USA,https://www.nba.com/player/204020/tyler-johnson,"JUN 05, 2021",BKN vs. MIL,W,1,0
+124,TylerJohnson,BKN,10.0,G,6-3,186 lbs,Fresno State,USA,https://www.nba.com/player/204020/tyler-johnson,"JUN 01, 2021",BKN vs. BOS,W,11,3
+125,NikolaJokic,DEN,15.0,C,6-11,284 lbs,Mega Basket,Serbia,https://www.nba.com/player/203999/nikola-jokic,"JUN 13, 2021",DEN vs. PHX,L,28,22
+126,NikolaJokic,DEN,15.0,C,6-11,284 lbs,Mega Basket,Serbia,https://www.nba.com/player/203999/nikola-jokic,"JUN 11, 2021",DEN vs. PHX,L,40,32
+127,NikolaJokic,DEN,15.0,C,6-11,284 lbs,Mega Basket,Serbia,https://www.nba.com/player/203999/nikola-jokic,"JUN 09, 2021",DEN @ PHX,L,30,24
+128,NikolaJokic,DEN,15.0,C,6-11,284 lbs,Mega Basket,Serbia,https://www.nba.com/player/203999/nikola-jokic,"JUN 07, 2021",DEN @ PHX,L,36,22
+129,NikolaJokic,DEN,15.0,C,6-11,284 lbs,Mega Basket,Serbia,https://www.nba.com/player/203999/nikola-jokic,"JUN 03, 2021",DEN @ POR,W,36,36
+130,RokasJokubaitis,NYK,,G,6-4,194 lbs,Zalgiris,Lithuania,https://www.nba.com/player/1630599/rokas-jokubaitis,No data,No data,No data,No data,No data
+131,RokasJokubaitis,NYK,,G,6-4,194 lbs,Zalgiris,Lithuania,https://www.nba.com/player/1630599/rokas-jokubaitis,No data,No data,No data,No data,No data
+132,RokasJokubaitis,NYK,,G,6-4,194 lbs,Zalgiris,Lithuania,https://www.nba.com/player/1630599/rokas-jokubaitis,No data,No data,No data,No data,No data
+133,RokasJokubaitis,NYK,,G,6-4,194 lbs,Zalgiris,Lithuania,https://www.nba.com/player/1630599/rokas-jokubaitis,No data,No data,No data,No data,No data
+134,RokasJokubaitis,NYK,,G,6-4,194 lbs,Zalgiris,Lithuania,https://www.nba.com/player/1630599/rokas-jokubaitis,No data,No data,No data,No data,No data
+135,CarlikJones,DAL,,G,6-0,174 lbs,Louisville,USA,https://www.nba.com/player/1630637/carlik-jones,No data,No data,No data,No data,No data
+136,CarlikJones,DAL,,G,6-0,174 lbs,Louisville,USA,https://www.nba.com/player/1630637/carlik-jones,No data,No data,No data,No data,No data
+137,CarlikJones,DAL,,G,6-0,174 lbs,Louisville,USA,https://www.nba.com/player/1630637/carlik-jones,No data,No data,No data,No data,No data
+138,CarlikJones,DAL,,G,6-0,174 lbs,Louisville,USA,https://www.nba.com/player/1630637/carlik-jones,No data,No data,No data,No data,No data
+139,CarlikJones,DAL,,G,6-0,174 lbs,Louisville,USA,https://www.nba.com/player/1630637/carlik-jones,No data,No data,No data,No data,No data
+140,DamianJones,SAC,15.0,C,6-11,245 lbs,Vanderbilt,USA,https://www.nba.com/player/1627745/damian-jones,"MAY 16, 2021",SAC vs. UTA,L,36,19
+141,DamianJones,SAC,15.0,C,6-11,245 lbs,Vanderbilt,USA,https://www.nba.com/player/1627745/damian-jones,"MAY 14, 2021",SAC @ MEM,L,35,17
+142,DamianJones,SAC,15.0,C,6-11,245 lbs,Vanderbilt,USA,https://www.nba.com/player/1627745/damian-jones,"MAY 13, 2021",SAC @ MEM,L,24,6
+143,DamianJones,SAC,15.0,C,6-11,245 lbs,Vanderbilt,USA,https://www.nba.com/player/1627745/damian-jones,"MAY 11, 2021",SAC vs. OKC,W,22,6
+144,DamianJones,SAC,15.0,C,6-11,245 lbs,Vanderbilt,USA,https://www.nba.com/player/1627745/damian-jones,"MAY 09, 2021",SAC vs. OKC,W,21,11
+145,HerbertJones,NOP,,F,6-6,206 lbs,Alabama,USA,https://www.nba.com/player/1630529/herbert-jones,No data,No data,No data,No data,No data
+146,HerbertJones,NOP,,F,6-6,206 lbs,Alabama,USA,https://www.nba.com/player/1630529/herbert-jones,No data,No data,No data,No data,No data
+147,HerbertJones,NOP,,F,6-6,206 lbs,Alabama,USA,https://www.nba.com/player/1630529/herbert-jones,No data,No data,No data,No data,No data
+148,HerbertJones,NOP,,F,6-6,206 lbs,Alabama,USA,https://www.nba.com/player/1630529/herbert-jones,No data,No data,No data,No data,No data
+149,HerbertJones,NOP,,F,6-6,206 lbs,Alabama,USA,https://www.nba.com/player/1630529/herbert-jones,No data,No data,No data,No data,No data
+150,KaiJones,CHA,,C-F,6-10,221 lbs,Texas-Austin,Bahamas,https://www.nba.com/player/1630539/kai-jones,No data,No data,No data,No data,No data
+151,KaiJones,CHA,,C-F,6-10,221 lbs,Texas-Austin,Bahamas,https://www.nba.com/player/1630539/kai-jones,No data,No data,No data,No data,No data
+152,KaiJones,CHA,,C-F,6-10,221 lbs,Texas-Austin,Bahamas,https://www.nba.com/player/1630539/kai-jones,No data,No data,No data,No data,No data
+153,KaiJones,CHA,,C-F,6-10,221 lbs,Texas-Austin,Bahamas,https://www.nba.com/player/1630539/kai-jones,No data,No data,No data,No data,No data
+154,KaiJones,CHA,,C-F,6-10,221 lbs,Texas-Austin,Bahamas,https://www.nba.com/player/1630539/kai-jones,No data,No data,No data,No data,No data
+155,TreJones,SAS,33.0,G,6-1,185 lbs,Duke,USA,https://www.nba.com/player/1630200/tre-jones,"MAY 16, 2021",SAS vs. PHX,L,18,9
+156,TreJones,SAS,33.0,G,6-1,185 lbs,Duke,USA,https://www.nba.com/player/1630200/tre-jones,"MAY 15, 2021",SAS vs. PHX,L,29,9
+157,TreJones,SAS,33.0,G,6-1,185 lbs,Duke,USA,https://www.nba.com/player/1630200/tre-jones,"MAY 12, 2021",SAS @ BKN,L,8,4
+158,TreJones,SAS,33.0,G,6-1,185 lbs,Duke,USA,https://www.nba.com/player/1630200/tre-jones,"MAY 10, 2021",SAS vs. MIL,W,4,0
+159,TreJones,SAS,33.0,G,6-1,185 lbs,Duke,USA,https://www.nba.com/player/1630200/tre-jones,"MAY 08, 2021",SAS @ POR,L,6,2
+160,TyusJones,MEM,21.0,G,6-0,196 lbs,Duke,USA,https://www.nba.com/player/1626145/tyus-jones,"JUN 02, 2021",MEM @ UTA,L,17,4
+161,TyusJones,MEM,21.0,G,6-0,196 lbs,Duke,USA,https://www.nba.com/player/1626145/tyus-jones,"MAY 31, 2021",MEM vs. UTA,L,5,0
+162,TyusJones,MEM,21.0,G,6-0,196 lbs,Duke,USA,https://www.nba.com/player/1626145/tyus-jones,"MAY 29, 2021",MEM vs. UTA,L,8,3
+163,TyusJones,MEM,21.0,G,6-0,196 lbs,Duke,USA,https://www.nba.com/player/1626145/tyus-jones,"MAY 26, 2021",MEM @ UTA,L,5,2
+164,TyusJones,MEM,21.0,G,6-0,196 lbs,Duke,USA,https://www.nba.com/player/1626145/tyus-jones,"MAY 23, 2021",MEM @ UTA,W,12,6
+165,DerrickJones Jr.,CHI,5.0,F,6-5,210 lbs,UNLV,USA,https://www.nba.com/player/1627884/derrick-jones-jr,"MAY 29, 2021",POR vs. DEN,W,5,2
+166,DerrickJones Jr.,CHI,5.0,F,6-5,210 lbs,UNLV,USA,https://www.nba.com/player/1627884/derrick-jones-jr,"MAY 24, 2021",POR @ DEN,L,5,2
+167,DerrickJones Jr.,CHI,5.0,F,6-5,210 lbs,UNLV,USA,https://www.nba.com/player/1627884/derrick-jones-jr,"MAY 16, 2021",POR vs. DEN,W,7,2
+168,DerrickJones Jr.,CHI,5.0,F,6-5,210 lbs,UNLV,USA,https://www.nba.com/player/1627884/derrick-jones-jr,"MAY 10, 2021",POR vs. HOU,W,23,11
+169,DerrickJones Jr.,CHI,5.0,F,6-5,210 lbs,UNLV,USA,https://www.nba.com/player/1627884/derrick-jones-jr,"MAY 05, 2021",POR @ CLE,W,20,5
+170,DeAndreJordan,DET,6.0,C,6-11,265 lbs,Texas A&M,USA,https://www.nba.com/player/201599/deandre-jordan,"MAY 08, 2021",BKN @ DEN,W,5,1
+171,DeAndreJordan,DET,6.0,C,6-11,265 lbs,Texas A&M,USA,https://www.nba.com/player/201599/deandre-jordan,"MAY 04, 2021",BKN @ MIL,L,16,2
+172,DeAndreJordan,DET,6.0,C,6-11,265 lbs,Texas A&M,USA,https://www.nba.com/player/201599/deandre-jordan,"MAY 02, 2021",BKN @ MIL,L,24,10
+173,DeAndreJordan,DET,6.0,C,6-11,265 lbs,Texas A&M,USA,https://www.nba.com/player/201599/deandre-jordan,"APR 30, 2021",BKN vs. POR,L,20,7
+174,DeAndreJordan,DET,6.0,C,6-11,265 lbs,Texas A&M,USA,https://www.nba.com/player/201599/deandre-jordan,"APR 25, 2021",BKN vs. PHX,W,21,6
+175,CoryJoseph,DET,18.0,G,6-3,200 lbs,Texas-Austin,Canada,https://www.nba.com/player/202709/cory-joseph,"MAY 16, 2021",DET vs. MIA,L,31,14
+176,CoryJoseph,DET,18.0,G,6-3,200 lbs,Texas-Austin,Canada,https://www.nba.com/player/202709/cory-joseph,"MAY 08, 2021",DET @ PHI,L,20,5
+177,CoryJoseph,DET,18.0,G,6-3,200 lbs,Texas-Austin,Canada,https://www.nba.com/player/202709/cory-joseph,"MAY 06, 2021",DET vs. MEM,W,35,18
+178,CoryJoseph,DET,18.0,G,6-3,200 lbs,Texas-Austin,Canada,https://www.nba.com/player/202709/cory-joseph,"APR 26, 2021",DET vs. ATL,W,22,15
+179,CoryJoseph,DET,18.0,G,6-3,200 lbs,Texas-Austin,Canada,https://www.nba.com/player/202709/cory-joseph,"APR 24, 2021",DET @ IND,L,30,12
+180,MfionduKabengele,CLE,27.0,F-C,6-9,250 lbs,Florida State,Canada,https://www.nba.com/player/1629662/mfiondu-kabengele,"MAY 16, 2021",CLE @ BKN,L,18,8
+181,MfionduKabengele,CLE,27.0,F-C,6-9,250 lbs,Florida State,Canada,https://www.nba.com/player/1629662/mfiondu-kabengele,"MAY 14, 2021",CLE @ WAS,L,21,4
+182,MfionduKabengele,CLE,27.0,F-C,6-9,250 lbs,Florida State,Canada,https://www.nba.com/player/1629662/mfiondu-kabengele,"MAY 12, 2021",CLE vs. BOS,W,16,2
+183,MfionduKabengele,CLE,27.0,F-C,6-9,250 lbs,Florida State,Canada,https://www.nba.com/player/1629662/mfiondu-kabengele,"MAY 10, 2021",CLE vs. IND,L,16,9
+184,MfionduKabengele,CLE,27.0,F-C,6-9,250 lbs,Florida State,Canada,https://www.nba.com/player/1629662/mfiondu-kabengele,"MAY 09, 2021",CLE vs. DAL,L,23,14
+185,GeorgiosKalaitzakis,MIL,,F,6-8,192 lbs,Panathinaikos,Greece,https://www.nba.com/player/1630686/georgios-kalaitzakis,No data,No data,No data,No data,No data
+186,GeorgiosKalaitzakis,MIL,,F,6-8,192 lbs,Panathinaikos,Greece,https://www.nba.com/player/1630686/georgios-kalaitzakis,No data,No data,No data,No data,No data
+187,GeorgiosKalaitzakis,MIL,,F,6-8,192 lbs,Panathinaikos,Greece,https://www.nba.com/player/1630686/georgios-kalaitzakis,No data,No data,No data,No data,No data
+188,GeorgiosKalaitzakis,MIL,,F,6-8,192 lbs,Panathinaikos,Greece,https://www.nba.com/player/1630686/georgios-kalaitzakis,No data,No data,No data,No data,No data
+189,GeorgiosKalaitzakis,MIL,,F,6-8,192 lbs,Panathinaikos,Greece,https://www.nba.com/player/1630686/georgios-kalaitzakis,No data,No data,No data,No data,No data
+190,FrankKaminsky,PHX,8.0,F-C,7-0,240 lbs,Wisconsin,USA,https://www.nba.com/player/1626163/frank-kaminsky,"JUL 20, 2021",PHX @ MIL,L,11,6
+191,FrankKaminsky,PHX,8.0,F-C,7-0,240 lbs,Wisconsin,USA,https://www.nba.com/player/1626163/frank-kaminsky,"JUL 11, 2021",PHX @ MIL,L,14,6
+192,FrankKaminsky,PHX,8.0,F-C,7-0,240 lbs,Wisconsin,USA,https://www.nba.com/player/1626163/frank-kaminsky,"JUL 08, 2021",PHX vs. MIL,W,1,0
+193,FrankKaminsky,PHX,8.0,F-C,7-0,240 lbs,Wisconsin,USA,https://www.nba.com/player/1626163/frank-kaminsky,"JUL 06, 2021",PHX vs. MIL,W,4,0
+194,FrankKaminsky,PHX,8.0,F-C,7-0,240 lbs,Wisconsin,USA,https://www.nba.com/player/1626163/frank-kaminsky,"JUN 11, 2021",PHX @ DEN,W,1,0
+195,EnesKanter,BOS,11.0,C,6-10,250 lbs,Fenerbahce,Turkey,https://www.nba.com/player/202683/enes-kanter,"JUN 01, 2021",POR @ DEN,L,14,4
+196,EnesKanter,BOS,11.0,C,6-10,250 lbs,Fenerbahce,Turkey,https://www.nba.com/player/202683/enes-kanter,"MAY 29, 2021",POR vs. DEN,W,3,0
+197,EnesKanter,BOS,11.0,C,6-10,250 lbs,Fenerbahce,Turkey,https://www.nba.com/player/202683/enes-kanter,"MAY 27, 2021",POR vs. DEN,L,6,0
+198,EnesKanter,BOS,11.0,C,6-10,250 lbs,Fenerbahce,Turkey,https://www.nba.com/player/202683/enes-kanter,"MAY 24, 2021",POR @ DEN,L,18,4
+199,EnesKanter,BOS,11.0,C,6-10,250 lbs,Fenerbahce,Turkey,https://www.nba.com/player/202683/enes-kanter,"MAY 22, 2021",POR @ DEN,W,15,2
+200,LukeKennard,LAC,5.0,G,6-5,206 lbs,Duke,USA,https://www.nba.com/player/1628379/luke-kennard,"JUN 30, 2021",LAC vs. PHX,L,14,3
+201,LukeKennard,LAC,5.0,G,6-5,206 lbs,Duke,USA,https://www.nba.com/player/1628379/luke-kennard,"JUN 28, 2021",LAC @ PHX,W,19,0
+202,LukeKennard,LAC,5.0,G,6-5,206 lbs,Duke,USA,https://www.nba.com/player/1628379/luke-kennard,"JUN 26, 2021",LAC vs. PHX,L,13,2
+203,LukeKennard,LAC,5.0,G,6-5,206 lbs,Duke,USA,https://www.nba.com/player/1628379/luke-kennard,"JUN 24, 2021",LAC vs. PHX,W,21,9
+204,LukeKennard,LAC,5.0,G,6-5,206 lbs,Duke,USA,https://www.nba.com/player/1628379/luke-kennard,"JUN 22, 2021",LAC @ PHX,L,19,10
+205,GeorgeKing,LAC,8.0,F-G,6-6,220 lbs,Colorado Boulder,USA,https://www.nba.com/player/1628994/george-king,"DEC 11, 2018",PHX @ SAS,L,6,0
+206,GeorgeKing,LAC,8.0,F-G,6-6,220 lbs,Colorado Boulder,USA,https://www.nba.com/player/1628994/george-king,"OCT 10, 2018",PHX @ POR,L,9,1
+207,GeorgeKing,LAC,8.0,F-G,6-6,220 lbs,Colorado Boulder,USA,https://www.nba.com/player/1628994/george-king,"OCT 05, 2018",PHX vs. POR,L,7,3
+208,LouisKing,SAC,23.0,F,6-7,205 lbs,Oregon,USA,https://www.nba.com/player/1629663/louis-king,"MAY 16, 2021",SAC vs. UTA,L,28,12
+209,LouisKing,SAC,23.0,F,6-7,205 lbs,Oregon,USA,https://www.nba.com/player/1629663/louis-king,"MAY 14, 2021",SAC @ MEM,L,34,27
+210,LouisKing,SAC,23.0,F,6-7,205 lbs,Oregon,USA,https://www.nba.com/player/1629663/louis-king,"MAY 13, 2021",SAC @ MEM,L,9,3
+211,LouisKing,SAC,23.0,F,6-7,205 lbs,Oregon,USA,https://www.nba.com/player/1629663/louis-king,"MAY 11, 2021",SAC vs. OKC,W,11,2
+212,LouisKing,SAC,23.0,F,6-7,205 lbs,Oregon,USA,https://www.nba.com/player/1629663/louis-king,"MAY 09, 2021",SAC vs. OKC,W,2,0
+213,CoreyKispert,WAS,,F,6-6,224 lbs,Gonzaga,USA,https://www.nba.com/player/1630557/corey-kispert,No data,No data,No data,No data,No data
+214,CoreyKispert,WAS,,F,6-6,224 lbs,Gonzaga,USA,https://www.nba.com/player/1630557/corey-kispert,No data,No data,No data,No data,No data
+215,CoreyKispert,WAS,,F,6-6,224 lbs,Gonzaga,USA,https://www.nba.com/player/1630557/corey-kispert,No data,No data,No data,No data,No data
+216,CoreyKispert,WAS,,F,6-6,224 lbs,Gonzaga,USA,https://www.nba.com/player/1630557/corey-kispert,No data,No data,No data,No data,No data
+217,CoreyKispert,WAS,,F,6-6,224 lbs,Gonzaga,USA,https://www.nba.com/player/1630557/corey-kispert,No data,No data,No data,No data,No data
+218,MaxiKleber,DAL,42.0,F,6-10,240 lbs,Bayern Munich,Germany,https://www.nba.com/player/1628467/maxi-kleber,"JUN 06, 2021",DAL @ LAC,L,9,0
+219,MaxiKleber,DAL,42.0,F,6-10,240 lbs,Bayern Munich,Germany,https://www.nba.com/player/1628467/maxi-kleber,"JUN 04, 2021",DAL vs. LAC,L,21,0
+220,MaxiKleber,DAL,42.0,F,6-10,240 lbs,Bayern Munich,Germany,https://www.nba.com/player/1628467/maxi-kleber,"JUN 02, 2021",DAL @ LAC,W,19,4
+221,MaxiKleber,DAL,42.0,F,6-10,240 lbs,Bayern Munich,Germany,https://www.nba.com/player/1628467/maxi-kleber,"MAY 30, 2021",DAL vs. LAC,L,32,0
+222,MaxiKleber,DAL,42.0,F,6-10,240 lbs,Bayern Munich,Germany,https://www.nba.com/player/1628467/maxi-kleber,"MAY 28, 2021",DAL vs. LAC,L,35,14
+223,NathanKnight,MIN,1.0,F-C,6-10,253 lbs,William & Mary,USA,https://www.nba.com/player/1630233/nathan-knight,"JUL 03, 2021",ATL vs. MIL,L,1,0
+224,NathanKnight,MIN,1.0,F-C,6-10,253 lbs,William & Mary,USA,https://www.nba.com/player/1630233/nathan-knight,"JUL 01, 2021",ATL @ MIL,L,1,0
+225,NathanKnight,MIN,1.0,F-C,6-10,253 lbs,William & Mary,USA,https://www.nba.com/player/1630233/nathan-knight,"JUN 29, 2021",ATL vs. MIL,W,3,2
+226,NathanKnight,MIN,1.0,F-C,6-10,253 lbs,William & Mary,USA,https://www.nba.com/player/1630233/nathan-knight,"JUN 25, 2021",ATL @ MIL,L,4,0
+227,NathanKnight,MIN,1.0,F-C,6-10,253 lbs,William & Mary,USA,https://www.nba.com/player/1630233/nathan-knight,"JUN 08, 2021",ATL @ PHI,L,2,2
+228,KevinKnox II,NYK,20.0,F,6-7,215 lbs,Kentucky,USA,https://www.nba.com/player/1628995/kevin-knox-ii,"MAY 30, 2021",NYK @ ATL,L,4,2
+229,KevinKnox II,NYK,20.0,F,6-7,215 lbs,Kentucky,USA,https://www.nba.com/player/1628995/kevin-knox-ii,"MAY 07, 2021",NYK @ PHX,L,2,0
+230,KevinKnox II,NYK,20.0,F,6-7,215 lbs,Kentucky,USA,https://www.nba.com/player/1628995/kevin-knox-ii,"MAY 05, 2021",NYK @ DEN,L,5,3
+231,KevinKnox II,NYK,20.0,F,6-7,215 lbs,Kentucky,USA,https://www.nba.com/player/1628995/kevin-knox-ii,"MAY 02, 2021",NYK @ HOU,W,5,2
+232,KevinKnox II,NYK,20.0,F,6-7,215 lbs,Kentucky,USA,https://www.nba.com/player/1628995/kevin-knox-ii,"APR 28, 2021",NYK vs. CHI,W,1,0
+233,JohnKonchar,MEM,46.0,G,6-5,210 lbs,Indiana-Purdue Fort Wayne,USA,https://www.nba.com/player/1629723/john-konchar,"JUN 02, 2021",MEM @ UTA,L,3,0
+234,JohnKonchar,MEM,46.0,G,6-5,210 lbs,Indiana-Purdue Fort Wayne,USA,https://www.nba.com/player/1629723/john-konchar,"MAY 14, 2021",MEM vs. SAC,W,22,15
+235,JohnKonchar,MEM,46.0,G,6-5,210 lbs,Indiana-Purdue Fort Wayne,USA,https://www.nba.com/player/1629723/john-konchar,"MAY 13, 2021",MEM vs. SAC,W,5,0
+236,JohnKonchar,MEM,46.0,G,6-5,210 lbs,Indiana-Purdue Fort Wayne,USA,https://www.nba.com/player/1629723/john-konchar,"MAY 11, 2021",MEM vs. DAL,W,26,18
+237,JohnKonchar,MEM,46.0,G,6-5,210 lbs,Indiana-Purdue Fort Wayne,USA,https://www.nba.com/player/1629723/john-konchar,"MAY 10, 2021",MEM vs. NOP,W,15,9
+238,BalsaKoprivica,DET,23.0,C,7-1,240 lbs,Florida State,Serbia,https://www.nba.com/player/1630638/balsa-koprivica,No data,No data,No data,No data,No data
+239,BalsaKoprivica,DET,23.0,C,7-1,240 lbs,Florida State,Serbia,https://www.nba.com/player/1630638/balsa-koprivica,No data,No data,No data,No data,No data
+240,BalsaKoprivica,DET,23.0,C,7-1,240 lbs,Florida State,Serbia,https://www.nba.com/player/1630638/balsa-koprivica,No data,No data,No data,No data,No data
+241,BalsaKoprivica,DET,23.0,C,7-1,240 lbs,Florida State,Serbia,https://www.nba.com/player/1630638/balsa-koprivica,No data,No data,No data,No data,No data
+242,BalsaKoprivica,DET,23.0,C,7-1,240 lbs,Florida State,Serbia,https://www.nba.com/player/1630638/balsa-koprivica,No data,No data,No data,No data,No data
+243,FurkanKorkmaz,PHI,30.0,G-F,6-7,202 lbs,Anadolu Efes,Turkey,https://www.nba.com/player/1627788/furkan-korkmaz,"JUN 20, 2021",PHI vs. ATL,L,18,5
+244,FurkanKorkmaz,PHI,30.0,G-F,6-7,202 lbs,Anadolu Efes,Turkey,https://www.nba.com/player/1627788/furkan-korkmaz,"JUN 18, 2021",PHI @ ATL,W,23,7
+245,FurkanKorkmaz,PHI,30.0,G-F,6-7,202 lbs,Anadolu Efes,Turkey,https://www.nba.com/player/1627788/furkan-korkmaz,"JUN 16, 2021",PHI vs. ATL,L,29,8
+246,FurkanKorkmaz,PHI,30.0,G-F,6-7,202 lbs,Anadolu Efes,Turkey,https://www.nba.com/player/1627788/furkan-korkmaz,"JUN 14, 2021",PHI @ ATL,L,25,10
+247,FurkanKorkmaz,PHI,30.0,G-F,6-7,202 lbs,Anadolu Efes,Turkey,https://www.nba.com/player/1627788/furkan-korkmaz,"JUN 11, 2021",PHI @ ATL,W,27,14
